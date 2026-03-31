@@ -1,43 +1,54 @@
-# Virtual Assistant - Jarvis
+# Virtual Assistant
 
-A voice-based intelligent virtual assistant built in Python, similar to Alexa or Google Assistant.
+## Project Description
+This is a voice-based virtual assistant developed using Python that can perform tasks through voice commands such as opening applications, playing music, searching the web, and responding to user queries.
 
 ## Features
-- Voice input using Speech Recognition
-- Text-to-Speech responses (pyttsx3 + gTTS)
-- Open websites and applications (Google, YouTube, Facebook, etc.)
-- Play music from local library
-- ChatGPT integration for intelligent responses
-- General task handling
-  
+- Voice recognition  
+- Open applications  
+- Web search  
+- Play music  
+- Respond to user queries  
+
 ## Technologies Used
-- Python
-- speech_recognition
-- pyttsx3 and gTTS (for speaking)
-- pygame (music ke liye)
-- webbrowser
-- OpenAI API
+- Python  
+- speech_recognition  
+- pyttsx3 and gTTS (for text-to-speech)  
+- pygame (for music playback)  
+- webbrowser  
+- OpenAI API  
 
-## How to Run (Local Setup)
-
+## How to Run
 1. Install the required libraries:
    ```bash
    pip install speechrecognition pyttsx3 pyaudio pygame openai gTTS requests
 2. Run the Assistant:
    ```bash
    python main.py
+3. Give voice commands through microphone  
 
-## Project Files
-- main.py (Main assistant code)
-- client.py (ChatGPT integration)
-- musicLibrary.py (Music playback)
+## Installation
+pip install speechrecognition  
+pip install pyttsx3  
+pip install gtts  
+pip install pygame  
+pip install openai  
 
-  
-## Challenges & What I learned
+## Output
+The assistant listens to user voice commands and performs tasks like opening applications, playing music, and searching information on the web.
 
-Maine ise Pydroid 3 app mein mobile pe develop kiya kyunki mere paas laptop nahi hai. Voice recognition aur API integration mein kaafi errors aaye the, lekin unko fix karke finally working bana diya.
-Abhi ye basic version hai. Aage isme aur features add karungi jaise weather update, news, reminders etc.
+## Challenges Faced
+- Handling voice recognition accuracy in noisy environments  
+- Integrating multiple libraries for smooth execution  
+- Managing real-time response for voice commands  
+- Handling API responses efficiently  
+- Developing and managing the project using a mobile device instead of a laptop  
 
-Made by Urmi Porwal
-   B.Tech Computer Science, KNIT Sultanpur
-   GitHub: @Urmi-Code-web
+## Future Improvements
+- Add more advanced voice commands  
+- Improve speech recognition accuracy  
+- Enhance user interaction  
+- Integrate more AI-based features  
+
+## Author
+Urmi Porwal
